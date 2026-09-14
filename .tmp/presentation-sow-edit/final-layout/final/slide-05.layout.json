@@ -1,0 +1,985 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/i107q5of",
+    "id": "i107q5of",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5kbi1oj",
+      "id": "9",
+      "bbox": [
+        64,
+        42,
+        7,
+        46
+      ],
+      "geometry": "rect",
+      "fillColor": "#1F3A5F",
+      "lineColor": "#1F3A5F",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgbulwnm",
+      "id": "2",
+      "bbox": [
+        88,
+        34,
+        1080,
+        62
+      ],
+      "geometry": "rect",
+      "text": "MVP scope covers seven operational workstreams",
+      "textPreview": "MVP scope covers seven operational workstreams",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "none",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MVP scope covers seven operational workstreams"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MVP scope covers seven operational workstreams",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Calibri",
+            "color": "#1F3A5F",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MVP scope covers seven operational workstreams",
+              "fontSize": 44,
+              "typeface": "Calibri",
+              "color": "#1F3A5F",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cf2tcr61",
+      "id": "3",
+      "bbox": [
+        64,
+        672,
+        1152,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D7DEE8",
+      "lineColor": "#D7DEE8",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2tcnm5s",
+      "id": "4",
+      "bbox": [
+        64,
+        683,
+        450,
+        20
+      ],
+      "geometry": "rect",
+      "text": "B2B Tool — Scope of Work Summary",
+      "textPreview": "B2B Tool — Scope of Work Summary",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "B2B Tool — Scope of Work Summary"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "B2B Tool — Scope of Work Summary",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Calibri",
+            "color": "#5D6978",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "B2B Tool — Scope of Work Summary",
+              "fontSize": 14,
+              "typeface": "Calibri",
+              "color": "#5D6978"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhkbe1o7",
+      "id": "5",
+      "bbox": [
+        1158,
+        683,
+        58,
+        20
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Calibri",
+            "color": "#5D6978",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 14,
+              "typeface": "Calibri",
+              "color": "#5D6978"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/fqx8zy54",
+      "id": "10",
+      "bbox": [
+        72,
+        126,
+        1136,
+        432
+      ],
+      "text": "Workstream | Included scope\nProduct Sync | Content webhook. Price/stock not copied from 72hours.ca.\nProduct Mapping UI | SKU suggestion, manual confirm, preview, sync, retry.\nPrice & Inventory Sync | NetSuite base price + qty → variant price + inventory.\nGroup Pricing Sync | Groups + SKU prices → Shopify Price Lists.\nPricing Sync UI | Group ↔ catalog mapping, preview, errors, history.\nCustomer Assignment UI | Search, assign, bulk assign, change history.\nDashboard | Connections, mapping counts, issues.",
+      "textPreview": "Workstream | Included scope | Product Sync | Content webhook. Price/stock not copied from 72hours.ca. | Product Mapping UI | SKU suggesti...",
+      "rows": 8,
+      "cols": 2,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            72,
+            126,
+            288,
+            40
+          ],
+          "text": "Workstream",
+          "textPreview": "Workstream",
+          "fillColor": "#1F3A5F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Workstream",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Calibri",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Workstream",
+                  "fontSize": 18,
+                  "typeface": "Calibri",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            360,
+            126,
+            848,
+            40
+          ],
+          "text": "Included scope",
+          "textPreview": "Included scope",
+          "fillColor": "#1F3A5F",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Included scope",
+              "resolvedTextStyle": {
+                "fontSize": 18,
+                "typeface": "Calibri",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Included scope",
+                  "fontSize": 18,
+                  "typeface": "Calibri",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            72,
+            166,
+            288,
+            56
+          ],
+          "text": "Product Sync",
+          "textPreview": "Product Sync",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Product Sync",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#1F3A5F",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Product Sync",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#1F3A5F",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            360,
+            166,
+            848,
+            56
+          ],
+          "text": "Content webhook. Price/stock not copied from 72hours.ca.",
+          "textPreview": "Content webhook. Price/stock not copied from 72hours.ca.",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Content webhook. Price/stock not copied from 72hours.ca.",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#17212B"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Content webhook. Price/stock not copied from 72hours.ca.",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#17212B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            72,
+            222,
+            288,
+            56
+          ],
+          "text": "Product Mapping UI",
+          "textPreview": "Product Mapping UI",
+          "fillColor": "#F6F8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Product Mapping UI",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#1F3A5F",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Product Mapping UI",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#1F3A5F",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            360,
+            222,
+            848,
+            56
+          ],
+          "text": "SKU suggestion, manual confirm, preview, sync, retry.",
+          "textPreview": "SKU suggestion, manual confirm, preview, sync, retry.",
+          "fillColor": "#F6F8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "SKU suggestion, manual confirm, preview, sync, retry.",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#17212B"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "SKU suggestion, manual confirm, preview, sync, retry.",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#17212B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            72,
+            278,
+            288,
+            56
+          ],
+          "text": "Price & Inventory Sync",
+          "textPreview": "Price & Inventory Sync",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Price & Inventory Sync",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#1F3A5F",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Price & Inventory Sync",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#1F3A5F",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            360,
+            278,
+            848,
+            56
+          ],
+          "text": "NetSuite base price + qty → variant price + inventory.",
+          "textPreview": "NetSuite base price + qty → variant price + inventory.",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "NetSuite base price + qty → variant price + inventory.",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#17212B"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "NetSuite base price + qty → variant price + inventory.",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#17212B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            72,
+            334,
+            288,
+            56
+          ],
+          "text": "Group Pricing Sync",
+          "textPreview": "Group Pricing Sync",
+          "fillColor": "#F6F8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Group Pricing Sync",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#1F3A5F",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Group Pricing Sync",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#1F3A5F",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            360,
+            334,
+            848,
+            56
+          ],
+          "text": "Groups + SKU prices → Shopify Price Lists.",
+          "textPreview": "Groups + SKU prices → Shopify Price Lists.",
+          "fillColor": "#F6F8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Groups + SKU prices → Shopify Price Lists.",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#17212B"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Groups + SKU prices → Shopify Price Lists.",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#17212B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            72,
+            390,
+            288,
+            56
+          ],
+          "text": "Pricing Sync UI",
+          "textPreview": "Pricing Sync UI",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Pricing Sync UI",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#1F3A5F",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Pricing Sync UI",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#1F3A5F",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            360,
+            390,
+            848,
+            56
+          ],
+          "text": "Group ↔ catalog mapping, preview, errors, history.",
+          "textPreview": "Group ↔ catalog mapping, preview, errors, history.",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Group ↔ catalog mapping, preview, errors, history.",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#17212B"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Group ↔ catalog mapping, preview, errors, history.",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#17212B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            72,
+            446,
+            288,
+            56
+          ],
+          "text": "Customer Assignment UI",
+          "textPreview": "Customer Assignment UI",
+          "fillColor": "#F6F8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Customer Assignment UI",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#1F3A5F",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Customer Assignment UI",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#1F3A5F",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            360,
+            446,
+            848,
+            56
+          ],
+          "text": "Search, assign, bulk assign, change history.",
+          "textPreview": "Search, assign, bulk assign, change history.",
+          "fillColor": "#F6F8FB",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Search, assign, bulk assign, change history.",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#17212B"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Search, assign, bulk assign, change history.",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#17212B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            72,
+            502,
+            288,
+            56
+          ],
+          "text": "Dashboard",
+          "textPreview": "Dashboard",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Dashboard",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#1F3A5F",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Dashboard",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#1F3A5F",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            360,
+            502,
+            848,
+            56
+          ],
+          "text": "Connections, mapping counts, issues.",
+          "textPreview": "Connections, mapping counts, issues.",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Connections, mapping counts, issues.",
+              "resolvedTextStyle": {
+                "fontSize": 16,
+                "typeface": "Calibri",
+                "color": "#17212B"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Connections, mapping counts, issues.",
+                  "fontSize": 16,
+                  "typeface": "Calibri",
+                  "color": "#17212B"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032tgr6d",
+      "id": "7",
+      "bbox": [
+        72,
+        580,
+        1136,
+        52
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E8EEF6",
+      "lineColor": "#E8EEF6",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6dcr65o",
+      "id": "8",
+      "bbox": [
+        92,
+        590,
+        1096,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Source of truth: 72hours.ca = content  •  NetSuite = price, inventory, group pricing  •  b2b-site = customers",
+      "textPreview": "Source of truth: 72hours.ca = content  •  NetSuite = price, inventory, group pricing  •  b2b-site = customers",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "Calibri",
+        "color": "#1F3A5F",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source of truth: 72hours.ca = content  •  NetSuite = price, inventory, group pricing  •  b2b-site = customers"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source of truth: 72hours.ca = content  •  NetSuite = price, inventory, group pricing  •  b2b-site = customers",
+          "lineSpacingPercent": 100000,
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Calibri",
+            "color": "#1F3A5F",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source of truth: 72hours.ca = content  •  NetSuite = price, inventory, group pricing  •  b2b-site = customers",
+              "fontSize": 17,
+              "typeface": "Calibri",
+              "color": "#1F3A5F",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

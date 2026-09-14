@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: b2b-tool-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: b2b
+      POSTGRES_PASSWORD: b2b_dev_password
+      POSTGRES_DB: b2b_tool
+    ports:
+      - "5433:5432"
+    volumes:
+      - b2b_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U b2b -d b2b_tool"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  b2b_pgdata:

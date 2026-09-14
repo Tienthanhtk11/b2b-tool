@@ -1,0 +1,10 @@
+Slide 1: preserved; optional explanatory line omitted to retain the minimal title layout.
+Slide 2: removed connecting arrows so the three systems read as independent sources.
+Slide 3: compressed the inherited three-node lanes and added one matching lane for base price and inventory.
+Slide 4: changed four inherited outcome rows to five evenly spaced rows.
+Slide 5: replaced the inherited 7-row table with an 8-row table for seven workstreams.
+Slide 6: changed only out-of-scope item 01.
+Slide 7: updated synchronization-service count and subtitle.
+Slide 8: changed four inherited check rows to five evenly spaced rows.
+Slide 9: retained four items per column and replaced lower-priority items with the new required inputs.
+Slide 10: preserved.

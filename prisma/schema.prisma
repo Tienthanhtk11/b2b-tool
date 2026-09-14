@@ -1,0 +1,294 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Shopify session storage (required by @shopify/shopify-app-session-storage-prisma)
+// One row per shop+user; both 72hours.ca and b2b-site sessions live here.
+// ---------------------------------------------------------------------------
+
+model Session {
+  id                  String    @id
+  shop                String
+  state               String
+  isOnline            Boolean   @default(false)
+  scope               String?
+  expires             DateTime?
+  accessToken         String
+  userId              BigInt?
+  firstName           String?
+  lastName            String?
+  email               String?
+  accountOwner        Boolean   @default(false)
+  locale              String?
+  collaborator        Boolean?  @default(false)
+  emailVerified       Boolean?  @default(false)
+  refreshToken        String?
+  refreshTokenExpires DateTime?
+
+  @@index([shop])
+}
+
+// ---------------------------------------------------------------------------
+// Product sync: 72hours.ca (source) -> b2b-site (target)
+// ---------------------------------------------------------------------------
+
+enum MappingStatus {
+  NEEDS_MAPPING
+  READY
+  SYNCING
+  SYNCED
+  FAILED
+}
+
+enum MatchMethod {
+  SKU_SUGGESTION
+  MANUAL
+}
+
+model ProductMapping {
+  id              String        @id @default(cuid())
+  // Shopify GIDs, e.g. gid://shopify/Product/123
+  sourceProductId String        @unique
+  sourceTitle     String
+  sourceImageUrl  String?
+  targetProductId String?
+  targetTitle     String?
+  targetImageUrl  String?
+  matchMethod     MatchMethod?
+  status          MappingStatus @default(NEEDS_MAPPING)
+  // Change detection: only push when source content actually changed,
+  // and never let an older webhook overwrite a newer version.
+  sourceUpdatedAt DateTime?
+  contentHash     String?
+  lastSyncedAt    DateTime?
+  lastError       String?
+  confirmedBy     String?
+  confirmedAt     DateTime?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  variantMappings VariantMapping[]
+
+  @@index([status])
+  @@index([targetProductId])
+}
+
+model VariantMapping {
+  id               String         @id @default(cuid())
+  productMappingId String
+  sourceVariantId  String
+  targetVariantId  String?
+  sku              String?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  productMapping ProductMapping @relation(fields: [productMappingId], references: [id], onDelete: Cascade)
+
+  @@unique([productMappingId, sourceVariantId])
+  @@index([sku])
+}
+
+// Webhook dedup: Shopify may deliver the same event more than once.
+model WebhookEvent {
+  id          String   @id // X-Shopify-Webhook-Id header
+  shop        String
+  topic       String
+  payloadHash String?
+  processedAt DateTime @default(now())
+
+  @@index([shop, topic])
+}
+
+// ---------------------------------------------------------------------------
+// NetSuite group pricing sync
+// ---------------------------------------------------------------------------
+
+enum PricingGroupStatus {
+  UNMAPPED
+  READY
+  SYNCING
+  SYNCED
+  PARTIAL
+  FAILED
+}
+
+model PricingGroup {
+  id               String             @id @default(cuid())
+  netsuiteGroupId  String             @unique
+  name             String
+  currency         String             @default("CAD")
+  // Shopify B2B resources managed by this app for the group
+  catalogId        String?
+  priceListId      String?            @unique
+  status           PricingGroupStatus @default(UNMAPPED)
+  skuCount         Int                @default(0)
+  lastSyncedAt     DateTime?
+  lastError        String?
+  createdAt        DateTime           @default(now())
+  updatedAt        DateTime           @updatedAt
+
+  prices      GroupPrice[]
+  assignments LocationAssignment[]
+
+  @@index([status])
+}
+
+enum PriceRowStatus {
+  PENDING
+  SYNCED
+  SKIPPED
+  FAILED
+}
+
+model GroupPrice {
+  id              String         @id @default(cuid())
+  pricingGroupId  String
+  sku             String
+  netsuiteItemId  String?
+  price           Decimal        @db.Decimal(12, 2)
+  currency        String         @default("CAD")
+  // Resolved Shopify variant (via SKU match, confirmed unique)
+  variantId       String?
+  status          PriceRowStatus @default(PENDING)
+  statusReason    String? // e.g. MISSING_SKU, DUPLICATE_SKU, INVALID_PRICE
+  lastSyncedAt    DateTime?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  pricingGroup PricingGroup @relation(fields: [pricingGroupId], references: [id], onDelete: Cascade)
+
+  @@unique([pricingGroupId, sku])
+  @@index([sku])
+  @@index([status])
+}
+
+// ---------------------------------------------------------------------------
+// Customer group assignment (per Shopify Company Location)
+// ---------------------------------------------------------------------------
+
+enum AssignmentStatus {
+  ASSIGNED
+  UNASSIGNED
+  CONFLICT
+  FAILED
+}
+
+model LocationAssignment {
+  id                String           @id @default(cuid())
+  companyLocationId String           @unique // gid://shopify/CompanyLocation/...
+  companyId         String
+  companyName       String
+  locationName      String
+  contactEmail      String?
+  pricingGroupId    String?
+  status            AssignmentStatus @default(UNASSIGNED)
+  lastError         String?
+  assignedBy        String?
+  assignedAt        DateTime?
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  pricingGroup PricingGroup? @relation(fields: [pricingGroupId], references: [id], onDelete: SetNull)
+
+  @@index([companyId])
+  @@index([status])
+}
+
+// ---------------------------------------------------------------------------
+// Operations: sync runs and audit trail
+// ---------------------------------------------------------------------------
+
+enum SyncType {
+  PRODUCT_SYNC
+  PRICING_SYNC
+  ITEM_SYNC
+  ASSIGNMENT
+}
+
+enum SyncTrigger {
+  WEBHOOK
+  MANUAL
+  SCHEDULED
+}
+
+enum SyncRunStatus {
+  RUNNING
+  SUCCESS
+  PARTIAL
+  FAILED
+}
+
+model SyncRun {
+  id           String        @id @default(cuid())
+  type         SyncType
+  trigger      SyncTrigger
+  status       SyncRunStatus @default(RUNNING)
+  // Optional scope, e.g. one product mapping or one pricing group
+  subjectType  String?
+  subjectId    String?
+  successCount Int           @default(0)
+  skippedCount Int           @default(0)
+  failedCount  Int           @default(0)
+  errorDetails Json?
+  triggeredBy  String?
+  startedAt    DateTime      @default(now())
+  finishedAt   DateTime?
+
+  @@index([type, startedAt])
+  @@index([status])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actor      String // admin email or "system"
+  action     String // e.g. MAPPING_CONFIRMED, GROUP_ASSIGNED, PRICE_SYNCED
+  entityType String
+  entityId   String
+  details    Json?
+  createdAt  DateTime @default(now())
+
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// NetSuite item price & inventory sync
+// ---------------------------------------------------------------------------
+
+enum ItemRowStatus {
+  PENDING
+  SYNCED
+  SKIPPED
+  FAILED
+}
+
+model NetSuiteItemState {
+  id                String        @id @default(cuid())
+  sku               String        @unique
+  netsuiteItemId    String?
+  basePrice         Decimal?      @db.Decimal(12, 2)
+  quantityAvailable Int?
+  variantId         String? // gid b2b-site
+  inventoryItemId   String? // gid b2b-site
+  priceStatus       ItemRowStatus @default(PENDING)
+  inventoryStatus   ItemRowStatus @default(PENDING)
+  statusReason      String?
+  lastSyncedAt      DateTime?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  @@index([priceStatus])
+  @@index([inventoryStatus])
+}
+
+model AppSetting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}

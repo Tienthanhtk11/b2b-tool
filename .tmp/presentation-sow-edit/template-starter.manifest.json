@@ -1,0 +1,123 @@
+{
+  "sourcePptx": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/docs/BMG_B2B_Scope_of_Work_Summary.pptx",
+  "mapPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-frame-map.json",
+  "output": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter.pptx",
+  "outputBytes": 48350,
+  "sourceSlideCount": 10,
+  "slideCount": 10,
+  "previewDir": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview",
+  "layoutDir": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout",
+  "contactSheet": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-contact-sheet.png",
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening preserve-only bumper",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-01.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-01.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-01.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-01.layout.json"
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "problem comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 4,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-02.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-02.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-02.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-02.layout.json"
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "solution flow map",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 2,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-03.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-03.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-03.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-03.layout.json"
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "outcome summary",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 2,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-04.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-04.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-04.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-04.layout.json"
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 5,
+      "narrativeRole": "scope table",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 3,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-05.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-05.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-05.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-05.layout.json"
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 6,
+      "narrativeRole": "scope exclusion summary",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 1,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-06.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-06.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-06.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-06.layout.json"
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "deliverables summary",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 2,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-07.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-07.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-07.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-07.layout.json"
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 8,
+      "narrativeRole": "acceptance summary",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 2,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-08.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-08.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-08.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-08.layout.json"
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 9,
+      "narrativeRole": "dependency and decision comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 1,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-09.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-09.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-09.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-09.layout.json"
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 10,
+      "narrativeRole": "closing preserve-only bumper",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 0,
+      "previewPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-preview/starter-slide-10.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-10.png",
+      "layoutPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout/starter-slide-10.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-10.layout.json"
+    }
+  ]
+}

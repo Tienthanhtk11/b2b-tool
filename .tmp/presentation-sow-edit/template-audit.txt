@@ -1,0 +1,8 @@
+Source deck: BMG_B2B_Scope_of_Work_Summary.pptx
+Slide count: 10, 16:9 at 1280 × 720.
+Visual system: white canvas, navy #1F3A5F, light blue #E8EEF6, Calibri/Calibri Light.
+Repeated chrome: navy title rail, footer rule, footer label, two-digit slide number.
+Reusable patterns: title bumper, three-system problem view, flow diagram, numbered rows, native scope table, out-of-scope list, acceptance checklist, two-column decision view, closing arrow.
+No source media, charts, logos, or inherited content placeholders.
+The edit preserves every slide pattern and the 10-slide narrative sequence.
+New primitives are limited to the additional price/inventory flow and extra rows requested for outcomes and acceptance.

@@ -1,0 +1,9 @@
+Primary project source:
+- /Users/Krizpham/Work/72HRS/TOOL/b2b-tool/docs/SCOPE_OF_WORK.md
+
+Platform references:
+- https://shopify.dev/docs/apps/build/b2b/manage-catalogs
+- https://shopify.dev/docs/apps/build/b2b/start-building
+- https://shopify.dev/docs/api/admin-graphql/latest/mutations/catalogcontextupdate
+
+No external visual assets were used.

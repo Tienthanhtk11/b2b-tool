@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-26T20:32:58.197Z",
+  "workspace": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit",
+  "finalPptx": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/docs/BMG_B2B_Scope_of_Work_Summary.pptx",
+  "starterPptx": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter.pptx",
+  "mapPath": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-frame-map.json",
+  "starterLayoutDir": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/template-starter-layout",
+  "finalLayoutDir": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit/final-layout/final",
+  "editDir": "/Users/Krizpham/Work/72HRS/TOOL/b2b-tool/.tmp/presentation-sow-edit",
+  "issueCount": 0,
+  "issues": []
+}

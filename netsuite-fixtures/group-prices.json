@@ -1,0 +1,49 @@
+{
+  "101": [
+    { "groupId": "101", "itemId": "2001", "sku": "BMG-1001", "price": "29.99", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2002", "sku": "BMG-1002", "price": "45.00", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2003", "sku": "BMG-1003", "price": "12.50", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2004", "sku": "BMG-1004", "price": "99.00", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2005", "sku": "BMG-1005", "price": "15.75", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2006", "sku": "BMG-1006", "price": "8.00", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2007", "sku": "BMG-1007", "price": "120.00", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2008", "sku": "BMG-1008", "price": "33.33", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2009", "sku": "BMG-1009", "price": "54.25", "currency": "CAD" },
+    { "groupId": "101", "itemId": "2010", "sku": "BMG-1010", "price": "19.99", "currency": "CAD" },
+    { "groupId": "101", "itemId": "9001", "sku": "MISSING-SKU-01", "price": "10.00", "currency": "CAD" },
+    { "groupId": "101", "itemId": "9002", "sku": "DUP-SKU-01", "price": "22.00", "currency": "CAD" },
+    { "groupId": "101", "itemId": "9003", "sku": "INVALID-ZERO", "price": "0", "currency": "CAD" },
+    { "groupId": "101", "itemId": "9004", "sku": "INVALID-NEG", "price": "-5.00", "currency": "CAD" }
+  ],
+  "102": [
+    { "groupId": "102", "itemId": "2001", "sku": "BMG-1001", "price": "27.50", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2002", "sku": "BMG-1002", "price": "42.00", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2011", "sku": "BMG-1011", "price": "18.00", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2012", "sku": "BMG-1012", "price": "64.90", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2013", "sku": "BMG-1013", "price": "11.25", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2014", "sku": "BMG-1014", "price": "250.00", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2015", "sku": "BMG-1015", "price": "7.49", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2016", "sku": "BMG-1016", "price": "31.10", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2017", "sku": "BMG-1017", "price": "40.00", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2018", "sku": "BMG-1018", "price": "55.55", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2019", "sku": "BMG-1019", "price": "16.80", "currency": "CAD" },
+    { "groupId": "102", "itemId": "2020", "sku": "BMG-1020", "price": "88.00", "currency": "CAD" },
+    { "groupId": "102", "itemId": "9002", "sku": "DUP-SKU-01", "price": "21.00", "currency": "CAD" },
+    { "groupId": "102", "itemId": "9005", "sku": "MISSING-SKU-02", "price": "13.00", "currency": "CAD" },
+    { "groupId": "102", "itemId": "9006", "sku": "INVALID-ZERO-B", "price": "0.00", "currency": "CAD" }
+  ],
+  "103": [
+    { "groupId": "103", "itemId": "2101", "sku": "BMG-2001", "price": "9.99", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2102", "sku": "BMG-2002", "price": "14.50", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2103", "sku": "BMG-2003", "price": "21.00", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2104", "sku": "BMG-2004", "price": "36.75", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2105", "sku": "BMG-2005", "price": "48.00", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2106", "sku": "BMG-2006", "price": "62.40", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2107", "sku": "BMG-2007", "price": "75.00", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2108", "sku": "BMG-2008", "price": "81.25", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2109", "sku": "BMG-2009", "price": "90.00", "currency": "CAD" },
+    { "groupId": "103", "itemId": "2110", "sku": "BMG-2010", "price": "105.00", "currency": "CAD" },
+    { "groupId": "103", "itemId": "9007", "sku": "MISSING-SKU-03", "price": "17.00", "currency": "CAD" },
+    { "groupId": "103", "itemId": "9008", "sku": "INVALID-NEG-B", "price": "-12.50", "currency": "CAD" }
+  ]
+}

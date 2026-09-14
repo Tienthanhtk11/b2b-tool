@@ -1,0 +1,256 @@
+{"kind":"deck","id":"pr/vn7xhp","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"BMG B2B Product &","textShapes":7}
+{"kind":"shape","id":"sh/4r6dg7et","slide":1,"bbox":[0,0,26,720]}
+{"kind":"shape","id":"sh/547294r6","slide":1,"bbox":[850,0,430,720]}
+{"kind":"shape","id":"sh/k3yl0zql","slide":1,"bbox":[850,0,16,720]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"text":"BMG B2B Product &\nGroup Pricing Integration","textPreview":"BMG B2B Product & | Group Pricing Integration","textChars":43,"textLines":2,"bbox":[88,158,700,170]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"text":"Scope of Work — Summary for Approval","textPreview":"Scope of Work — Summary for Approval","textChars":36,"textLines":1,"bbox":[90,354,680,46]}
+{"kind":"shape","id":"sh/ts7md4r2","slide":1,"bbox":[90,424,150,4]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"text":"Shopify Plus (72hours.ca, b2b-site) + NetSuite","textPreview":"Shopify Plus (72hours.ca, b2b-site) + NetSuite","textChars":46,"textLines":1,"bbox":[90,454,670,40]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"text":"INTERNAL REPORT","textPreview":"INTERNAL REPORT","textChars":15,"textLines":1,"bbox":[920,204,280,34]}
+{"kind":"shape","id":"sh/utg3698n","slide":1,"bbox":[970,282,180,180]}
+{"kind":"textbox","id":"sh/wn6dc7eh","slide":1,"text":"B2B\nTOOL","textPreview":"B2B | TOOL","textChars":8,"textLines":2,"bbox":[995,312,130,120]}
+{"kind":"shape","id":"sh/hofulsf2","slide":1,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/ul4vaxgb","slide":1,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/vmdcj2xw","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n[/Sources]"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Three systems create one manual workflow","textShapes":18}
+{"kind":"shape","id":"sh/mlgvq147","slide":2,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"text":"Three systems create one manual workflow","textPreview":"Three systems create one manual workflow","textChars":40,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"text":"72hours.ca","textPreview":"72hours.ca","textChars":10,"textLines":1,"bbox":[92,150,290,50]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"bbox":[154,214,166,4]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"text":"Product content","textPreview":"Product content","textChars":15,"textLines":1,"bbox":[92,236,290,36]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"text":"NetSuite","textPreview":"NetSuite","textChars":8,"textLines":1,"bbox":[446,150,290,50]}
+{"kind":"shape","id":"sh/ove9o7yd","slide":2,"bbox":[508,214,166,4]}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"text":"Price, inventory & group pricing","textPreview":"Price, inventory & group pricing","textChars":32,"textLines":1,"bbox":[446,236,290,36]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"text":"b2b-site","textPreview":"b2b-site","textChars":8,"textLines":1,"bbox":[800,150,290,50]}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"bbox":[862,214,166,4]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"text":"B2B customers","textPreview":"B2B customers","textChars":13,"textLines":1,"bbox":[800,236,290,36]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"text":"Manual operations increase execution risk","textPreview":"Manual operations increase execution risk","textChars":41,"textLines":1,"bbox":[88,326,650,42]}
+{"kind":"shape","id":"sh/cnupgny5","slide":2,"bbox":[72,396,1136,194]}
+{"kind":"textbox","id":"sh/do3q9szq","slide":2,"text":"Slow updates","textPreview":"Slow updates","textChars":12,"textLines":1,"bbox":[100,430,235,38]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"text":"Repeated manual work","textPreview":"Repeated manual work","textChars":20,"textLines":1,"bbox":[100,485,235,48]}
+{"kind":"shape","id":"sh/s72xofmh","slide":2,"bbox":[351,432,1,116]}
+{"kind":"textbox","id":"sh/76twva5c","slide":2,"text":"Wrong price / SKU / stock","textPreview":"Wrong price / SKU / stock","textChars":25,"textLines":1,"bbox":[375,430,235,38]}
+{"kind":"textbox","id":"sh/65kfmpor","slide":2,"text":"Customer trust risk","textPreview":"Customer trust risk","textChars":19,"textLines":1,"bbox":[375,485,235,48]}
+{"kind":"shape","id":"sh/hcvy14ne","slide":2,"bbox":[626,432,1,116]}
+{"kind":"textbox","id":"sh/gbmxszmt","slide":2,"text":"Missing content","textPreview":"Missing content","textChars":15,"textLines":1,"bbox":[650,430,235,38]}
+{"kind":"textbox","id":"sh/fadgzu58","slide":2,"text":"Inconsistent catalog","textPreview":"Inconsistent catalog","textChars":20,"textLines":1,"bbox":[650,485,235,48]}
+{"kind":"shape","id":"sh/u94fqp4n","slide":2,"bbox":[901,432,1,116]}
+{"kind":"textbox","id":"sh/p0vy54na","slide":2,"text":"No audit trail","textPreview":"No audit trail","textChars":14,"textLines":1,"bbox":[925,430,235,38]}
+{"kind":"textbox","id":"sh/4zmxwzmp","slide":2,"text":"Hard to investigate","textPreview":"Hard to investigate","textChars":19,"textLines":1,"bbox":[925,485,235,48]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n[/Sources]"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"One app orchestrates content, price, inventory and group pricing","textShapes":30}
+{"kind":"shape","id":"sh/wv61obyx","slide":3,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"text":"One app orchestrates content, price, inventory and group pricing","textPreview":"One app orchestrates content, price, inventory and group pricing","textChars":64,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"text":"PRODUCT CONTENT","textPreview":"PRODUCT CONTENT","textChars":15,"textLines":1,"bbox":[82,112,220,24]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"bbox":[340,166,62,24]}
+{"kind":"shape","id":"sh/m5cra54z","slide":3,"bbox":[662,166,62,24]}
+{"kind":"shape","id":"sh/n6ls3alk","slide":3,"bbox":[82,142,250,72]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"text":"72hours.ca","textPreview":"72hours.ca","textChars":10,"textLines":1,"bbox":[94,151,226,28]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"text":"Source content","textPreview":"Source content","textChars":14,"textLines":1,"bbox":[94,181,226,24]}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"bbox":[410,142,244,72]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"text":"B2B Tool","textPreview":"B2B Tool","textChars":8,"textLines":1,"bbox":[422,151,220,28]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"text":"Map • sync • audit","textPreview":"Map • sync • audit","textChars":18,"textLines":1,"bbox":[422,181,220,24]}
+{"kind":"shape","id":"sh/a5c3ql8z","slide":3,"bbox":[732,142,250,72]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"text":"b2b-site","textPreview":"b2b-site","textChars":8,"textLines":1,"bbox":[744,151,226,28]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"text":"Target products","textPreview":"Target products","textChars":15,"textLines":1,"bbox":[744,181,226,24]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"text":"GROUP PRICING","textPreview":"GROUP PRICING","textChars":13,"textLines":1,"bbox":[82,344,220,24]}
+{"kind":"shape","id":"sh/i9w3u58v","slide":3,"bbox":[340,398,62,24]}
+{"kind":"shape","id":"sh/e10f2twf","slide":3,"bbox":[662,398,62,24]}
+{"kind":"shape","id":"sh/f29gbyx0","slide":3,"bbox":[82,374,250,72]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"text":"NetSuite","textPreview":"NetSuite","textChars":8,"textLines":1,"bbox":[94,383,226,28]}
+{"kind":"textbox","id":"sh/14ryd8fq","slide":3,"text":"Groups + SKU prices","textPreview":"Groups + SKU prices","textChars":19,"textLines":1,"bbox":[94,413,226,24]}
+{"kind":"shape","id":"sh/6d0fytg3","slide":3,"bbox":[410,374,244,72]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"text":"B2B Tool","textPreview":"B2B Tool","textChars":8,"textLines":1,"bbox":[422,383,220,28]}
+{"kind":"textbox","id":"sh/sfix03y9","slide":3,"text":"Validate • upsert","textPreview":"Validate • upsert","textChars":17,"textLines":1,"bbox":[422,413,220,24]}
+{"kind":"shape","id":"sh/tgry9ofu","slide":3,"bbox":[732,374,250,72]}
+{"kind":"textbox","id":"sh/a9kfadwn","slide":3,"text":"B2B Catalog","textPreview":"B2B Catalog","textChars":11,"textLines":1,"bbox":[744,383,226,28]}
+{"kind":"textbox","id":"sh/batgjixs","slide":3,"text":"Catalog + Price List","textPreview":"Catalog + Price List","textChars":20,"textLines":1,"bbox":[744,413,226,24]}
+{"kind":"shape","id":"sh/l4fi9cza","slide":3,"bbox":[990,398,58,24]}
+{"kind":"shape","id":"sh/k3m1g7yp","slide":3,"bbox":[1054,374,164,72]}
+{"kind":"textbox","id":"sh/z2d07mh4","slide":3,"text":"Admin assigns","textPreview":"Admin assigns","textChars":13,"textLines":1,"bbox":[1064,382,144,24]}
+{"kind":"textbox","id":"sh/y14jehgj","slide":3,"text":"Company Location\n→ pricing group","textPreview":"Company Location | → pricing group","textChars":32,"textLines":2,"bbox":[1064,409,144,30]}
+{"kind":"shape","id":"sh/x0vi5czy","slide":3,"bbox":[238,518,804,82]}
+{"kind":"textbox","id":"sh/czmhc7id","slide":3,"text":"LOGIN","textPreview":"LOGIN","textChars":5,"textLines":1,"bbox":[276,540,90,32]}
+{"kind":"textbox","id":"sh/byd032h8","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[380,536,40,36]}
+{"kind":"textbox","id":"sh/ax4zax0n","slide":3,"text":"Correct group prices","textPreview":"Correct group prices","textChars":20,"textLines":1,"bbox":[440,536,270,36]}
+{"kind":"textbox","id":"sh/hwzihwzi","slide":3,"text":"PDP  •  Cart  •  Checkout","textPreview":"PDP  •  Cart  •  Checkout","textChars":25,"textLines":1,"bbox":[738,538,250,32]}
+{"kind":"textbox","id":"sh/4nuhs7uh","slide":3,"text":"PRICE + INVENTORY","textPreview":"PRICE + INVENTORY","textChars":17,"textLines":1,"bbox":[82,228,220,24]}
+{"kind":"shape","id":"sh/po3ilcvm","slide":3,"bbox":[340,282,62,24]}
+{"kind":"shape","id":"sh/21szqxcb","slide":3,"bbox":[662,282,62,24]}
+{"kind":"shape","id":"sh/32l0j2dw","slide":3,"bbox":[82,258,250,72]}
+{"kind":"textbox","id":"sh/cruhwrud","slide":3,"text":"NetSuite","textPreview":"NetSuite","textChars":8,"textLines":1,"bbox":[94,267,226,28]}
+{"kind":"textbox","id":"sh/ds3ipcvy","slide":3,"text":"List price + stock","textPreview":"List price + stock","textChars":18,"textLines":1,"bbox":[94,297,226,24]}
+{"kind":"shape","id":"sh/qpczuhc7","slide":3,"bbox":[410,258,244,72]}
+{"kind":"textbox","id":"sh/rql0nmds","slide":3,"text":"B2B Tool","textPreview":"B2B Tool","textChars":8,"textLines":1,"bbox":[422,267,220,28]}
+{"kind":"textbox","id":"sh/0ve10ru9","slide":3,"text":"Validate • upsert","textPreview":"Validate • upsert","textChars":17,"textLines":1,"bbox":[422,297,220,24]}
+{"kind":"shape","id":"sh/1wnitwvu","slide":3,"bbox":[732,258,250,72]}
+{"kind":"textbox","id":"sh/v29cfu18","slide":3,"text":"b2b-site","textPreview":"b2b-site","textChars":8,"textLines":1,"bbox":[744,267,226,28]}
+{"kind":"textbox","id":"sh/a10b6p03","slide":3,"text":"Variant price + inventory","textPreview":"Variant price + inventory","textChars":25,"textLines":1,"bbox":[744,297,226,24]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n- https://shopify.dev/docs/apps/build/b2b/manage-catalogs\n- https://shopify.dev/docs/apps/build/b2b/start-building\n[/Sources]"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Five outcomes define project success","textShapes":18}
+{"kind":"shape","id":"sh/oz29krqh","slide":4,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"text":"Five outcomes define project success","textPreview":"Five outcomes define project success","textChars":36,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[86,126,74,44]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"text":"Automate product information sync","textPreview":"Automate product information sync","textChars":33,"textLines":1,"bbox":[190,126,560,36]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"text":"72hours.ca → b2b-site","textPreview":"72hours.ca → b2b-site","textChars":21,"textLines":1,"bbox":[780,126,390,36]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"bbox":[190,194,980,1]}
+{"kind":"textbox","id":"sh/kbm987y5","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[86,222,74,44]}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"text":"Sync NetSuite product price & inventory","textPreview":"Sync NetSuite product price & inventory","textChars":39,"textLines":1,"bbox":[190,222,560,36]}
+{"kind":"textbox","id":"sh/i94r6xgz","slide":4,"text":"Variant price + stock on b2b-site","textPreview":"Variant price + stock on b2b-site","textChars":33,"textLines":1,"bbox":[780,222,390,36]}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"bbox":[190,290,980,1]}
+{"kind":"textbox","id":"sh/w72947yt","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[86,318,74,44]}
+{"kind":"textbox","id":"sh/x8vaxsfe","slide":4,"text":"Sync NetSuite group prices","textPreview":"Sync NetSuite group prices","textChars":26,"textLines":1,"bbox":[190,318,560,36]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"text":"Groups + SKU prices → Price Lists","textPreview":"Groups + SKU prices → Price Lists","textChars":33,"textLines":1,"bbox":[780,318,390,36]}
+{"kind":"shape","id":"sh/v6tsv2xo","slide":4,"bbox":[190,386,980,1]}
+{"kind":"textbox","id":"sh/g36tgryd","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[86,414,74,44]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"text":"Assign customers by Company Location","textPreview":"Assign customers by Company Location","textChars":36,"textLines":1,"bbox":[190,414,560,36]}
+{"kind":"textbox","id":"sh/p0batw72","slide":4,"text":"One primary pricing group","textPreview":"One primary pricing group","textChars":25,"textLines":1,"bbox":[780,414,390,36]}
+{"kind":"shape","id":"sh/3ytsrmpw","slide":4,"bbox":[190,482,980,1]}
+{"kind":"textbox","id":"sh/2xkrih8b","slide":4,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[86,510,74,44]}
+{"kind":"textbox","id":"sh/1wbapc7q","slide":4,"text":"Show correct prices after login","textPreview":"Show correct prices after login","textChars":31,"textLines":1,"bbox":[190,510,560,36]}
+{"kind":"textbox","id":"sh/gv29g7q5","slide":4,"text":"Product page • cart • checkout","textPreview":"Product page • cart • checkout","textChars":30,"textLines":1,"bbox":[780,510,390,36]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n- https://shopify.dev/docs/apps/build/b2b/manage-catalogs\n- https://shopify.dev/docs/apps/build/b2b/start-building\n[/Sources]"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"MVP scope covers seven operational workstreams","textShapes":4}
+{"kind":"shape","id":"sh/m5kbi1oj","slide":5,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"text":"MVP scope covers seven operational workstreams","textPreview":"MVP scope covers seven operational workstreams","textChars":46,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"shape","id":"sh/032tgr6d","slide":5,"bbox":[72,580,1136,52]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"text":"Source of truth: 72hours.ca = content  •  NetSuite = price, inventory, group pricing  •  b2b-site = customers","textPreview":"Source of truth: 72hours.ca = content  •  NetSuite = price, inventory, group pricing  •  b2b-site = customers","textChars":109,"textLines":1,"bbox":[92,590,1096,32]}
+{"kind":"table","id":"tb/fqx8zy54","slide":5,"name":"","rows":8,"cols":2,"preview":"Workstream | Included scope","bbox":[72,126,1136,432]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n- https://shopify.dev/docs/apps/build/b2b/manage-catalogs\n[/Sources]"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"MVP stays focused on products and group pricing","textShapes":13}
+{"kind":"shape","id":"sh/cbe5g3ih","slide":6,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"text":"MVP stays focused on products and group pricing","textPreview":"MVP stays focused on products and group pricing","textChars":47,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"bbox":[72,134,286,472]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"text":"OUT OF\nMVP","textPreview":"OUT OF | MVP","textChars":10,"textLines":2,"bbox":[106,230,218,126]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"text":"Deferred for later phases","textPreview":"Deferred for later phases","textChars":25,"textLines":1,"bbox":[104,388,222,48]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[414,156,52,38]}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"text":"Order or customer sync with NetSuite","textPreview":"Order or customer sync with NetSuite","textChars":36,"textLines":1,"bbox":[486,156,660,52]}
+{"kind":"shape","id":"sh/w32twb6l","slide":6,"bbox":[486,228,660,1]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[414,264,52,38]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"text":"Promotions, discounts, volume pricing, tax rules","textPreview":"Promotions, discounts, volume pricing, tax rules","textChars":48,"textLines":1,"bbox":[486,264,660,52]}
+{"kind":"shape","id":"sh/5svutgni","slide":6,"bbox":[486,336,660,1]}
+{"kind":"textbox","id":"sh/47mt0b6x","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[414,372,52,38]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"text":"Per-customer pricing outside defined groups","textPreview":"Per-customer pricing outside defined groups","textChars":43,"textLines":1,"bbox":[486,372,660,52]}
+{"kind":"shape","id":"sh/i54bylor","slide":6,"bbox":[486,444,660,1]}
+{"kind":"textbox","id":"sh/twfux0ne","slide":6,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[414,480,52,38]}
+{"kind":"textbox","id":"sh/svmt4v6t","slide":6,"text":"Auto-delete products or auto-fix duplicate SKUs","textPreview":"Auto-delete products or auto-fix duplicate SKUs","textChars":47,"textLines":1,"bbox":[486,480,660,52]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n[/Sources]"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"Deliverables cover build, operations and quality","textShapes":15}
+{"kind":"shape","id":"sh/r2dkrq5g","slide":7,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"text":"Deliverables cover build, operations and quality","textPreview":"Deliverables cover build, operations and quality","textChars":48,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"shape","id":"sh/kzmdova1","slide":7,"bbox":[80,134,58,58]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[80,134,58,58]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"text":"Embedded Shopify admin app","textPreview":"Embedded Shopify admin app","textChars":26,"textLines":1,"bbox":[174,132,430,34]}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"text":"Custom distribution • both Plus stores","textPreview":"Custom distribution • both Plus stores","textChars":38,"textLines":1,"bbox":[634,132,520,46]}
+{"kind":"shape","id":"sh/baxkjqlk","slide":7,"bbox":[174,212,980,1]}
+{"kind":"shape","id":"sh/a9ojq5kz","slide":7,"bbox":[80,256,58,58]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[80,256,58,58]}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"text":"Three synchronization services","textPreview":"Three synchronization services","textChars":30,"textLines":1,"bbox":[174,254,430,34]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"text":"Content • price & inventory • group pricing\nQueue • retry • audit log","textPreview":"Content • price & inventory • group pricing | Queue • retry • audit log","textChars":69,"textLines":2,"bbox":[634,254,520,46]}
+{"kind":"shape","id":"sh/25ojml43","slide":7,"bbox":[174,334,980,1]}
+{"kind":"shape","id":"sh/p8fih03e","slide":7,"bbox":[80,378,58,58]}
+{"kind":"textbox","id":"sh/o761ov2t","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[80,378,58,58]}
+{"kind":"textbox","id":"sh/f2d0b6lc","slide":7,"text":"Operations interfaces","textPreview":"Operations interfaces","textChars":21,"textLines":1,"bbox":[174,376,430,34]}
+{"kind":"textbox","id":"sh/eh4jil4r","slide":7,"text":"Mapping • pricing • assignment • dashboard","textPreview":"Mapping • pricing • assignment • dashboard","textChars":42,"textLines":1,"bbox":[634,376,520,46]}
+{"kind":"shape","id":"sh/id4ju1oz","slide":7,"bbox":[174,456,980,1]}
+{"kind":"shape","id":"sh/jedkn654","slide":7,"bbox":[80,500,58,58]}
+{"kind":"textbox","id":"sh/4fm1wb6p","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[80,500,58,58]}
+{"kind":"textbox","id":"sh/50v2pgna","slide":7,"text":"Production readiness","textPreview":"Production readiness","textChars":20,"textLines":1,"bbox":[174,498,430,34]}
+{"kind":"textbox","id":"sh/q143ylov","slide":7,"text":"Dev • staging • production • docs • tests","textPreview":"Dev • staging • production • docs • tests","textChars":41,"textLines":1,"bbox":[634,498,520,46]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n[/Sources]"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"Approval depends on five measurable outcomes","textShapes":18}
+{"kind":"shape","id":"sh/kredcr6t","slide":8,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"text":"Approval depends on five measurable outcomes","textPreview":"Approval depends on five measurable outcomes","textChars":44,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"shape","id":"sh/tkby9kzm","slide":8,"bbox":[86,128,42,42]}
+{"kind":"textbox","id":"sh/sjix0zy1","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[86,127,42,42]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"text":"Product content updates mapped products","textPreview":"Product content updates mapped products","textChars":39,"textLines":1,"bbox":[154,126,430,30]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"text":"No overwrite of NetSuite price / stock","textPreview":"No overwrite of NetSuite price / stock","textChars":38,"textLines":1,"bbox":[600,125,570,44]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"bbox":[154,186,1016,1]}
+{"kind":"shape","id":"sh/98rehwve","slide":8,"bbox":[86,226,42,42]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[86,225,42,42]}
+{"kind":"textbox","id":"sh/n6pwfmd8","slide":8,"text":"Price and inventory write correctly","textPreview":"Price and inventory write correctly","textChars":35,"textLines":1,"bbox":[154,224,430,30]}
+{"kind":"textbox","id":"sh/0jydkreh","slide":8,"text":"Shopify variants + inventory locations","textPreview":"Shopify variants + inventory locations","textChars":38,"textLines":1,"bbox":[600,223,570,44]}
+{"kind":"shape","id":"sh/1k7edwv2","slide":8,"bbox":[154,284,1016,1]}
+{"kind":"shape","id":"sh/ehgvihwr","slide":8,"bbox":[86,324,42,42]}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[86,323,42,42]}
+{"kind":"textbox","id":"sh/kfixwbe1","slide":8,"text":"Group pricing sync is idempotent","textPreview":"Group pricing sync is idempotent","textChars":32,"textLines":1,"bbox":[154,322,430,30]}
+{"kind":"textbox","id":"sh/lgbepgvm","slide":8,"text":"Correct values; no duplicate records","textPreview":"Correct values; no duplicate records","textChars":36,"textLines":1,"bbox":[600,321,570,44]}
+{"kind":"shape","id":"sh/tw7e9gnq","slide":8,"bbox":[154,382,1016,1]}
+{"kind":"shape","id":"sh/svydgb65","slide":8,"bbox":[86,422,42,42]}
+{"kind":"textbox","id":"sh/7u5w765k","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[86,421,42,42]}
+{"kind":"textbox","id":"sh/6twve1oz","slide":8,"text":"Price visibility is isolated","textPreview":"Price visibility is isolated","textChars":28,"textLines":1,"bbox":[154,420,430,30]}
+{"kind":"textbox","id":"sh/5sne5wne","slide":8,"text":"Assigned group; unassigned = base price","textPreview":"Assigned group; unassigned = base price","textChars":39,"textLines":1,"bbox":[600,419,570,44]}
+{"kind":"shape","id":"sh/jq5w365o","slide":8,"bbox":[154,480,1016,1]}
+{"kind":"shape","id":"sh/i5wva1o3","slide":8,"bbox":[86,520,42,42]}
+{"kind":"textbox","id":"sh/x4ne1wni","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[86,519,42,42]}
+{"kind":"textbox","id":"sh/w3ed8r6x","slide":8,"text":"Operations remain traceable","textPreview":"Operations remain traceable","textChars":27,"textLines":1,"bbox":[154,518,430,30]}
+{"kind":"textbox","id":"sh/m9sb2x4v","slide":8,"text":"Full sync history and audit trail","textPreview":"Full sync history and audit trail","textChars":33,"textLines":1,"bbox":[600,517,570,44]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n- https://shopify.dev/docs/apps/build/b2b/manage-catalogs\n- https://shopify.dev/docs/apps/build/b2b/start-building\n[/Sources]"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"Four inputs unlock a reliable estimate","textShapes":13}
+{"kind":"shape","id":"sh/u9sja98z","slide":9,"bbox":[64,42,7,46]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"text":"Four inputs unlock a reliable estimate","textPreview":"Four inputs unlock a reliable estimate","textChars":38,"textLines":1,"bbox":[88,34,1080,62]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"shape","id":"sh/9gzml0nq","slide":9,"bbox":[72,132,540,56]}
+{"kind":"shape","id":"sh/ofq5svm5","slide":9,"bbox":[668,132,540,56]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"text":"DEPENDENCIES","textPreview":"DEPENDENCIES","textChars":12,"textLines":1,"bbox":[96,144,492,32]}
+{"kind":"textbox","id":"sh/ah8nu54b","slide":9,"text":"TO DECIDE BEFORE ESTIMATE","textPreview":"TO DECIDE BEFORE ESTIMATE","textChars":25,"textLines":1,"bbox":[692,144,492,32]}
+{"kind":"shape","id":"sh/oza1gfyh","slide":9,"bbox":[96,230,10,10]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"text":"Store + NetSuite API access","textPreview":"Store + NetSuite API access","textChars":27,"textLines":1,"bbox":[120,220,442,50]}
+{"kind":"shape","id":"sh/2xsjepgb","slide":9,"bbox":[692,230,10,10]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"text":"Create products when unmapped?","textPreview":"Create products when unmapped?","textChars":30,"textLines":1,"bbox":[716,220,442,50]}
+{"kind":"shape","id":"sh/cnu1kzyd","slide":9,"bbox":[96,312,10,10]}
+{"kind":"textbox","id":"sh/do3id4fy","slide":9,"text":"NetSuite price/qty fields + locations","textPreview":"NetSuite price/qty fields + locations","textChars":37,"textLines":1,"bbox":[120,302,442,50]}
+{"kind":"shape","id":"sh/qlcjipgn","slide":9,"bbox":[692,312,10,10]}
+{"kind":"textbox","id":"sh/bml0buxs","slide":9,"text":"Stock location + base price level?","textPreview":"Stock location + base price level?","textChars":34,"textLines":1,"bbox":[716,302,442,50]}
+{"kind":"shape","id":"sh/0ru1ozyp","slide":9,"bbox":[96,394,10,10]}
+{"kind":"textbox","id":"sh/lsn2h4fa","slide":9,"text":"Pricing groups + initial assignments","textPreview":"Pricing groups + initial assignments","textChars":36,"textLines":1,"bbox":[120,384,442,50]}
+{"kind":"shape","id":"sh/98ji147e","slide":9,"bbox":[692,394,10,10]}
+{"kind":"textbox","id":"sh/87a18zqt","slide":9,"text":"Price & inventory latency: 15 minutes","textPreview":"Price & inventory latency: 15 minutes","textChars":37,"textLines":1,"bbox":[716,384,442,50]}
+{"kind":"shape","id":"sh/76h0zup8","slide":9,"bbox":[96,476,10,10]}
+{"kind":"textbox","id":"sh/ml8j6p8n","slide":9,"text":"Unique SKU convention across systems","textPreview":"Unique SKU convention across systems","textChars":36,"textLines":1,"bbox":[120,466,442,50]}
+{"kind":"shape","id":"sh/hcji5o7a","slide":9,"bbox":[692,476,10,10]}
+{"kind":"textbox","id":"sh/wba1cjqp","slide":9,"text":"NetSuite pricing data interface","textPreview":"NetSuite pricing data interface","textChars":31,"textLines":1,"bbox":[716,466,442,50]}
+{"kind":"shape","id":"sh/va103ep4","slide":9,"bbox":[640,204,1,350]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n[/Sources]"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"NEXT STEP","textShapes":10}
+{"kind":"shape","id":"sh/0bit8b2d","slide":10,"bbox":[0,0,22,720]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"text":"NEXT STEP","textPreview":"NEXT STEP","textChars":9,"textLines":1,"bbox":[88,108,260,34]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"text":"Close decisions and grant\nNetSuite sandbox access","textPreview":"Close decisions and grant | NetSuite sandbox access","textChars":49,"textLines":2,"bbox":[88,164,900,136]}
+{"kind":"shape","id":"sh/zelojyl8","slide":10,"bbox":[90,356,1020,78]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"text":"OPEN DECISIONS","textPreview":"OPEN DECISIONS","textChars":14,"textLines":1,"bbox":[132,374,220,38]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"text":"+","textPreview":"+","textChars":1,"textLines":1,"bbox":[390,374,42,38]}
+{"kind":"textbox","id":"sh/kzu5c32t","slide":10,"text":"SANDBOX ACCESS","textPreview":"SANDBOX ACCESS","textChars":14,"textLines":1,"bbox":[462,374,220,38]}
+{"kind":"textbox","id":"sh/725onyl4","slide":10,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[716,374,42,38]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"text":"FINAL ESTIMATE + TIMELINE","textPreview":"FINAL ESTIMATE + TIMELINE","textChars":25,"textLines":1,"bbox":[790,374,280,38]}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"text":"Contact: [Project owner / email]","textPreview":"Contact: [Project owner / email]","textChars":32,"textLines":1,"bbox":[90,514,600,42]}
+{"kind":"shape","id":"sh/d87uxg3m","slide":10,"bbox":[64,672,1152,1]}
+{"kind":"textbox","id":"sh/q5gb21kb","slide":10,"text":"B2B Tool — Scope of Work Summary","textPreview":"B2B Tool — Scope of Work Summary","textChars":32,"textLines":1,"bbox":[64,683,450,20]}
+{"kind":"textbox","id":"sh/r6pcv6lw","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1158,683,58,20]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"[Sources]\n- /Users/Krizpham/.codex/attachments/fa017fe2-3bff-48c1-887f-66baeb893c4b/pasted-text.txt\n[/Sources]"}

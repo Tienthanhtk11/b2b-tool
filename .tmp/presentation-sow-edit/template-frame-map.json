@@ -1,0 +1,138 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening preserve-only bumper",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "problem comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/q5wjelsz", "action": "rewrite" },
+        { "shapeId": "sh/xk7qlczu", "action": "delete" },
+        { "shapeId": "sh/ahwrqhgj", "action": "delete" },
+        { "shapeId": "sh/76twva5c", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "solution flow map",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "shapeIds": [
+            "sh/cza94vmx", "sh/obq90bml", "sh/pcjqtg36", "sh/m5cra54z", "sh/n6ls3alk", "sh/n2l4fq98", "sh/m1c3mlsn", "sh/943mhgre", "sh/83ulovat", "sh/v6l4jq94", "sh/a5c3ql8z", "sh/x8nml0ra", "sh/w7ulsvqp", "sh/ja54na9g", "sh/i9w3u58v", "sh/e10f2twf", "sh/f29gbyx0", "sh/03ix43e5", "sh/14ryd8fq", "sh/6d0fytg3", "sh/re9g7yxo", "sh/sfix03y9", "sh/tgry9ofu", "sh/a9kfadwn", "sh/batgjixs", "sh/l4fi9cza", "sh/k3m1g7yp", "sh/z2d07mh4", "sh/y14jehgj", "sh/x0vi5czy", "sh/czmhc7id", "sh/byd032h8", "sh/ax4zax0n", "sh/hwzihwzi"
+          ],
+          "action": "rewrite-and-reposition"
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "zone": { "left": 72, "top": 228, "width": 1136, "height": 128 },
+          "reason": "Add the required NetSuite base-price and inventory flow using the inherited lane style.",
+          "mustNotOverlapInherited": true
+        }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "outcome summary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "shapeIds": [
+            "sh/1cj2d8b6", "sh/doj29oba", "sh/sna103ap", "sh/3ihk3et8", "sh/ih8ju9sn", "sh/kbm987y5", "sh/5cva1cfq", "sh/i94r6xgz", "sh/jadsz2xk", "sh/w72947yt", "sh/x8vaxsfe", "sh/a5kr2xg3", "sh/v6tsv2xo", "sh/g36tgryd", "sh/h4fa9wfy", "sh/p0batw72"
+          ],
+          "action": "rewrite-and-reposition"
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "zone": { "left": 80, "top": 120, "width": 1100, "height": 500 },
+          "reason": "Add a fifth outcome using the inherited numbered-row pattern after compressing existing rows.",
+          "mustNotOverlapInherited": true
+        }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 5,
+      "narrativeRole": "scope table",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/dgbulwnm", "action": "rewrite" },
+        { "shapeId": "tb/fqx8zy54", "action": "replace" },
+        { "shapeId": "sh/n6dcr65o", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 6,
+      "narrativeRole": "scope exclusion summary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/h4bupgn6", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "deliverables summary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/cbq1sv25", "action": "rewrite" },
+        { "shapeId": "sh/n6x0fqlo", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 8,
+      "narrativeRole": "acceptance summary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "shapeIds": [
+            "sh/18byd4zy", "sh/tkby9kzm", "sh/sjix0zy1", "sh/je9g3ahk", "sh/id0fu50z", "sh/o7ydoret", "sh/98rehwve", "sh/m5gvmhwn", "sh/n6pwfmd8", "sh/0jydkreh", "sh/1k7edwv2", "sh/ehgvihwr", "sh/zipwbmdc", "sh/kfixwbe1", "sh/lgbepgvm", "sh/tw7e9gnq", "sh/svydgb65", "sh/7u5w765k", "sh/6twve1oz", "sh/5sne5wne"
+          ],
+          "action": "rewrite-and-reposition"
+        },
+        {
+          "action": "add",
+          "newPrimitiveAllowed": true,
+          "zone": { "left": 80, "top": 120, "width": 1100, "height": 520 },
+          "reason": "Add the fifth required acceptance check using the inherited checklist pattern.",
+          "mustNotOverlapInherited": true
+        }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 9,
+      "narrativeRole": "dependency and decision comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        {
+          "shapeIds": [
+            "sh/p0ji9kf2", "sh/do3id4fy", "sh/lsn2h4fa", "sh/ml8j6p8n", "sh/3y107axw", "sh/bml0buxs", "sh/87a18zqt", "sh/wba1cjqp"
+          ],
+          "action": "rewrite"
+        }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 10,
+      "narrativeRole": "closing preserve-only bumper",
+      "reuseMode": "duplicate-slide",
+      "editTargets": []
+    }
+  ],
+  "omittedSourceSlides": []
+}
