@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mockup — 1 Person 72HRS Deluxe Backpack</title>
+  <style>
+    :root {
+      --ink: #1c1c1c;
+      --muted: #5c6370;
+      --line: #e6e8ee;
+      --nav: #eef0fb;
+      --blue: #1d4ed8;
+      --purple: #4f46e5;
+      --purple-dark: #4338ca;
+      --sale: #b42318;
+      --ok: #ecfdf3;
+      --ok-ink: #067647;
+      --active: #eef2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      color: var(--ink);
+      background: #fff;
+    }
+    a { color: inherit; text-decoration: none; }
+    header, .nav, main, .reco { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      padding: 18px 0 14px;
+    }
+    .logo { font-weight: 800; letter-spacing: -0.04em; line-height: 0.9; color: var(--blue); font-size: 28px; }
+    .logo span { display: block; font-size: 13px; letter-spacing: 0.08em; }
+    .search {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid #d5d8e0;
+      border-radius: 8px;
+      padding: 10px 12px;
+      color: #98a2b3;
+    }
+    .search input { border: 0; outline: 0; width: 100%; font: inherit; color: var(--ink); }
+    .account { display: flex; align-items: center; gap: 16px; font-size: 14px; white-space: nowrap; }
+    .who { text-align: right; }
+    .who strong { display: block; }
+    .who span { color: var(--muted); font-size: 12px; }
+    .cart { font-weight: 600; }
+    .nav-wrap { background: var(--nav); }
+    .nav { display: flex; gap: 22px; padding: 12px 0; font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+    .banner {
+      width: min(1180px, calc(100% - 40px));
+      margin: 14px auto 0;
+      background: #fff7ed;
+      color: #9a3412;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 13px;
+    }
+    .product { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; padding: 28px 0 10px; }
+    .stage {
+      background: #f7f8fb;
+      border-radius: 12px;
+      min-height: 460px;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .thumbs { display: flex; align-items: center; gap: 12px; margin-top: 16px; }
+    .thumb {
+      width: 92px; height: 72px; border: 1px solid var(--line); border-radius: 8px;
+      display: grid; place-items: center; font-size: 11px; color: var(--muted); background: #fff;
+    }
+    .thumb.on { border-color: #111; }
+    .sku { color: var(--blue); font-size: 14px; margin-bottom: 8px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 16px; }
+    .lead { margin: 0 0 18px 18px; color: #333; }
+    .prices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+    .price-card { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+    .price-card.yours { border-color: #c7d2fe; background: var(--active); }
+    .label { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+    .amount { font-size: 28px; font-weight: 750; margin-top: 4px; }
+    .amount s { color: #98a2b3; font-size: 16px; font-weight: 500; margin-left: 6px; }
+    .hint { color: var(--muted); font-size: 13px; margin-top: 4px; }
+    .buy { display: flex; gap: 10px; align-items: end; }
+    .qty label { display: block; font-size: 13px; font-weight: 650; margin-bottom: 6px; }
+    .stepper { display: flex; border: 1px solid #d0d5dd; border-radius: 8px; overflow: hidden; }
+    .stepper button, .stepper input {
+      border: 0; background: #fff; height: 44px; font: inherit;
+    }
+    .stepper button { width: 36px; cursor: pointer; font-size: 18px; }
+    .stepper input { width: 56px; text-align: center; font-weight: 700; }
+    .add {
+      flex: 1; height: 44px; border: 0; border-radius: 8px; background: var(--purple);
+      color: #fff; font-weight: 700; cursor: pointer;
+    }
+    .add:hover { background: var(--purple-dark); }
+    .min-note { margin: 8px 0 0; font-size: 13px; color: var(--ok-ink); background: var(--ok); display: inline-block; border-radius: 999px; padding: 4px 10px; }
+    .bulk { margin-top: 22px; }
+    .bulk h2 { font-size: 16px; margin: 0 0 8px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); text-align: left; padding: 10px 8px; }
+    th { font-size: 12px; color: var(--muted); font-weight: 700; }
+    tr.active { background: var(--active); }
+    tr.active td:first-child { font-weight: 700; }
+    .acc { margin: 28px 0; }
+    .acc details { background: var(--nav); margin-bottom: 10px; }
+    .acc summary { padding: 14px 16px; font-weight: 800; letter-spacing: 0.04em; cursor: pointer; }
+    .acc .body { background: #fff; padding: 8px 18px 16px; }
+    .reco { padding-bottom: 48px; }
+    .reco h2 { font-size: 22px; }
+    @media (max-width: 860px) {
+      .product, .prices, header { display: block; }
+      .account { margin-top: 12px; }
+      .nav { overflow: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">BMG<span>INDUSTRIES</span></div>
+    <form class="search" action="#">
+      <span aria-hidden="true">⌕</span>
+      <input type="search" placeholder="Search" aria-label="Search" />
+    </form>
+    <div class="account">
+      <div class="who">
+        <strong>Northline Rescue</strong>
+        <span>Pricing group · Level 2</span>
+      </div>
+      <a class="cart" href="#">Cart (0)</a>
+    </div>
+  </header>
+  <div class="nav-wrap">
+    <nav class="nav">
+      <a href="#">EMERGENCY KITS</a>
+      <a href="#">EMERGENCY SUPPLIES</a>
+      <a href="#">FOOD</a>
+      <a href="#">WATER</a>
+      <a href="#">FIRST AID KITS</a>
+      <a href="#">FIRST AID SUPPLIES &amp; EQUIPMENT</a>
+      <a href="#">BRANDS</a>
+    </nav>
+  </div>
+  <p class="banner">Mockup cho khách đã đăng nhập. Giá CAD là số mẫu để xem bố cục, chưa lấy từ NetSuite.</p>
+  <main>
+    <section class="product">
+      <div>
+        <div class="stage" aria-label="Product image">
+          <svg width="280" height="320" viewBox="0 0 280 320" role="img" aria-label="Red emergency backpack">
+            <rect x="70" y="36" width="140" height="230" rx="28" fill="#e10600"/>
+            <rect x="70" y="150" width="140" height="36" fill="#d0d5dd"/>
+            <circle cx="140" cy="78" r="22" fill="#fff"/>
+            <text x="140" y="82" text-anchor="middle" font-size="12" font-family="Arial" fill="#e10600">72</text>
+            <rect x="92" y="196" width="96" height="14" rx="4" fill="#111"/>
+            <rect x="92" y="216" width="96" height="14" rx="4" fill="#111"/>
+            <rect x="118" y="18" width="44" height="22" rx="8" fill="#111"/>
+          </svg>
+        </div>
+        <div class="thumbs">
+          <button class="thumb on" type="button">Kit</button>
+          <div class="thumb">Contents</div>
+          <div class="thumb">Radio</div>
+          <div class="thumb">Rations</div>
+        </div>
+      </div>
+      <div>
+        <div class="sku">Item: 72DK-001B</div>
+        <h1>1 Person 72HRS Deluxe Backpack – Emergency Survival Kit</h1>
+        <ul class="lead">
+          <li>Emergency food and water provided can last 1 person 3 to 5 days during an emergency.</li>
+        </ul>
+
+        <div class="prices">
+          <div class="price-card">
+            <div class="label">Base price</div>
+            <div class="amount">$149.00</div>
+            <div class="hint">Level 1 · giá niêm yết</div>
+          </div>
+          <div class="price-card yours">
+            <div class="label">Your price</div>
+            <div class="amount" id="your-price">$119.00 <s>$149.00</s></div>
+            <div class="hint" id="your-tier">Level 2 · 6–10 units</div>
+          </div>
+        </div>
+
+        <form class="buy" action="#">
+          <div class="qty">
+            <label for="qty">Quantity</label>
+            <div class="stepper">
+              <button type="button" id="minus" aria-label="Decrease quantity">−</button>
+              <input id="qty" value="6" inputmode="numeric" aria-label="Quantity" />
+              <button type="button" id="plus" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+          <button class="add" type="button">Add to cart</button>
+        </form>
+        <p class="min-note" id="min-note">Minimum order quantity is 6.</p>
+
+        <section class="bulk">
+          <h2>Bulk pricing</h2>
+          <p class="hint">Giá áp dụng cho Northline Rescue theo số lượng mua. Cột đang chọn đổi theo ô Quantity.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Quantity</th>
+                <th>Unit price</th>
+                <th>Versus base</th>
+              </tr>
+            </thead>
+            <tbody id="breaks">
+              <tr data-min="6" data-max="10" data-price="119.00">
+                <td>6–10</td><td>$119.00</td><td>Save $30.00</td>
+              </tr>
+              <tr data-min="11" data-max="20" data-price="109.00">
+                <td>11–20</td><td>$109.00</td><td>Save $40.00</td>
+              </tr>
+              <tr data-min="21" data-max="50" data-price="99.00">
+                <td>21–50</td><td>$99.00</td><td>Save $50.00</td>
+              </tr>
+              <tr data-min="51" data-max="9999" data-price="89.00">
+                <td>51+</td><td>$89.00</td><td>Save $60.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </section>
+
+    <section class="acc">
+      <details open>
+        <summary>OVERVIEW</summary>
+        <div class="body">
+          <ul>
+            <li>The top-selling emergency kit in Canada.</li>
+            <li>This kit is well-equipped with vital survival tools and advanced emergency preparedness items, including an NOAA weather band radio with several other features.</li>
+            <li>Stored in a premium backpack with multiple compartments and MOLLE straps for versatility.</li>
+            <li>Emergency food and water have up to a 5-year shelf life (delivered within 1–8 months after the manufacturing date).</li>
+            <li>Emergency food and water provided can last 1 person 3 to 5 days during an emergency.</li>
+          </ul>
+        </div>
+      </details>
+      <details>
+        <summary>SPECIFICATIONS</summary>
+      </details>
+      <details>
+        <summary>DESCRIPTION</summary>
+      </details>
+    </section>
+    <section class="reco">
+      <h2>You may also like</h2>
+    </section>
+  </main>
+  <script>
+    var qty = document.getElementById("qty");
+    var rows = Array.prototype.slice.call(document.querySelectorAll("#breaks tr"));
+    var priceEl = document.getElementById("your-price");
+    var tierEl = document.getElementById("your-tier");
+    var note = document.getElementById("min-note");
+
+    function paint() {
+      var n = Math.max(6, parseInt(qty.value, 10) || 6);
+      qty.value = String(n);
+      rows.forEach(function (row) {
+        var min = Number(row.getAttribute("data-min"));
+        var max = Number(row.getAttribute("data-max"));
+        var on = n >= min && n <= max;
+        row.className = on ? "active" : "";
+        if (on) {
+          var price = row.getAttribute("data-price");
+          priceEl.innerHTML = "$" + price + " <s>$149.00</s>";
+          tierEl.textContent = "Level 2 · " + row.cells[0].textContent + " units";
+        }
+      });
+      note.textContent = n === 6
+        ? "Minimum order quantity is 6."
+        : "Quantity " + n + " uses the highlighted bulk price.";
+    }
+
+    document.getElementById("minus").onclick = function () {
+      qty.value = String(Math.max(6, (parseInt(qty.value, 10) || 6) - 1));
+      paint();
+    };
+    document.getElementById("plus").onclick = function () {
+      qty.value = String((parseInt(qty.value, 10) || 6) + 1);
+      paint();
+    };
+    qty.onchange = paint;
+    paint();
+  </script>
+</body>
+</html>
