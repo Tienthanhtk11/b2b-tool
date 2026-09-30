@@ -248,6 +248,18 @@
       animation: spin 0.6s linear infinite; display: inline-block;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
+    .group-picks { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .group-pick {
+      border: 1px solid var(--line); background: #fff; border-radius: 12px;
+      padding: 12px 14px; min-width: 168px; text-align: left; box-shadow: var(--shadow);
+    }
+    .group-pick.on { box-shadow: inset 0 0 0 1px #303030; border-color: #303030; }
+    .group-pick b { display: block; font-size: 14px; }
+    .table-scroll { overflow-x: auto; }
+    .matrix { min-width: 1080px; }
+    .matrix th, .matrix td { white-space: nowrap; }
+    .matrix td.num, .matrix th.num { text-align: right; }
+    .matrix .subh { display: block; font-weight: 500; color: var(--sub); font-size: 11px; }
     .screen { animation: fade 0.18s ease; }
     @keyframes fade { from { opacity: 0.4; } to { opacity: 1; } }
     @media (max-width: 860px) {
@@ -283,7 +295,7 @@
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 5.5 8 3l5 2.5v6L8 14l-5-2.5v-6Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M3 5.5 8 8l5-2.5M8 8v6" stroke="currentColor" stroke-width="1.4"/></svg>
           Items
         </button>
-        <button type="button" data-nav="soon">
+        <button type="button" data-nav="pricing">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 4.5h10M3 8h10M3 11.5h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
           Pricing groups
         </button>
@@ -348,6 +360,59 @@
         <div class="card section-pad">
           <h2>Activity</h2>
           <ul class="log" id="cust-log"></ul>
+        </div>
+      </section>
+
+      <section id="screen-pricing" class="screen hidden">
+        <div class="page-head">
+          <div>
+            <h1>Pricing groups</h1>
+            <p class="lede">Open a group to see its customers and the price of each product. Base price is Level 1. Group price is this group's selling price at the minimum quantity, and it matches Gói 1.</p>
+          </div>
+        </div>
+        <div class="group-picks" id="group-picks"></div>
+        <div class="card section-pad">
+          <h2 id="group-customer-title">Customers</h2>
+          <p class="lede">One customer belongs to this group only.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Company location</th>
+                <th>Email</th>
+                <th>NetSuite customer</th>
+              </tr>
+            </thead>
+            <tbody id="group-customers"></tbody>
+          </table>
+        </div>
+        <div class="card">
+          <div class="filters">
+            <label class="search">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="4.25" stroke="#616161" stroke-width="1.4"/><path d="M10.5 10.5 13 13" stroke="#616161" stroke-width="1.4" stroke-linecap="round"/></svg>
+              <input id="price-search" type="search" placeholder="Search product or SKU" />
+            </label>
+          </div>
+          <div class="table-scroll">
+            <table class="matrix">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>SKU</th>
+                  <th class="num">Base price</th>
+                  <th class="num">Group price</th>
+                  <th class="num">Gói 1<span class="subh">Buy 6–10</span></th>
+                  <th class="num">Gói 2<span class="subh">Buy 11–20</span></th>
+                  <th class="num">Gói 3<span class="subh">Buy 21–50</span></th>
+                  <th class="num">Gói 4<span class="subh">Buy 51–100</span></th>
+                  <th class="num">Gói 5<span class="subh">Buy 101+</span></th>
+                </tr>
+              </thead>
+              <tbody id="group-products"></tbody>
+            </table>
+          </div>
+          <div class="section-pad">
+            <p class="lede">Gói 1 and Gói 2 are 6–10 and 11–20. Gói 3 to Gói 5 use sample ranges until the NetSuite API names those quantity columns.</p>
+          </div>
         </div>
       </section>
 
@@ -977,8 +1042,72 @@
       toast(message);
     }
 
+    var priceGroups = [
+      {
+        id: "lv2",
+        name: "Level 2",
+        customers: [
+          ["Northline Rescue", "Toronto", "buyer@northline.example", "Northline Rescue Ltd"],
+          ["Cedar Field Co.", "Calgary", "ap@cedar.example", "Cedar Field Co."],
+          ["Summit Aid", "Edmonton", "orders@summit.example", "Summit Aid"],
+          ["Two Peaks Supply", "Calgary", "hello@twopeaks.example", "Two Peaks Supply"]
+        ],
+        products: [
+          ["Day pack", "72DK-001B", 149, 119, [119, 109, 99, 89, 79]],
+          ["Water treatment", "72WT-110", 89, 72, [72, 66, 60, 55, 50]],
+          ["First aid roll", "72FD-014", 64, 52, [52, 48, 44, 40, 36]],
+          ["Headlamp", "72LT-220", 39, 32, [32, 29, 26, 24, 22]],
+          ["Trauma kit", "72KT-300", 210, 168, [168, 155, 142, 130, 118]],
+          ["Work gloves", "72GL-015", 12, 9.5, [9.5, 8.75, 8, 7.5, 7]],
+          ["Respirator", "72MK-044", 18, 14.5, [14.5, 13.25, 12, 11, 10]]
+        ]
+      },
+      {
+        id: "lv3",
+        name: "Level 3",
+        customers: [
+          ["Harbour Medic", "Vancouver", "ops@harbour.example", "Harbour Medic Inc"],
+          ["Lakeside EMS", "Ottawa", "kit@lakeside.example", "Lakeside EMS"],
+          ["Arctic Response", "Yellowknife", "ap@arctic.example", "Arctic Response"]
+        ],
+        products: [
+          ["Day pack", "72DK-001B", 149, 99, [99, 92, 84, 76, 69]],
+          ["Water treatment", "72WT-110", 89, 61, [61, 56, 51, 47, 43]],
+          ["First aid roll", "72FD-014", 64, 44, [44, 40, 36, 33, 30]],
+          ["Headlamp", "72LT-220", 39, 27, [27, 24, 22, 20, 18]],
+          ["Trauma kit", "72KT-300", 210, 142, [142, 130, 118, 108, 98]],
+          ["Work gloves", "72GL-015", 12, 8, [8, 7.25, 6.5, 6, 5.5]],
+          ["Respirator", "72MK-044", 18, 12, [12, 11, 10, 9, 8]]
+        ]
+      }
+    ];
+    var activeGroupId = "lv2";
+
+    function renderPricing() {
+      var group = priceGroups.filter(function (row) { return row.id === activeGroupId; })[0];
+      document.getElementById("group-picks").innerHTML = priceGroups.map(function (row) {
+        return '<button type="button" class="group-pick' + (row.id === activeGroupId ? " on" : "") + '" data-group="' + row.id + '"><b>' + esc(row.name) + '</b><span class="k">' + row.customers.length + " customers · " + row.products.length + " products</span></button>";
+      }).join("");
+      document.getElementById("group-customer-title").textContent = group.name + " · customers";
+      document.getElementById("group-customers").innerHTML = group.customers.map(function (row) {
+        return "<tr><td><div class=\"name\">" + esc(row[0]) + "</div><div class=\"meta\">" + esc(row[1]) + "</div></td><td>" + esc(row[2]) + "</td><td>" + esc(row[3]) + "</td></tr>";
+      }).join("");
+      var q = document.getElementById("price-search").value.trim().toLowerCase();
+      var products = group.products.filter(function (row) {
+        if (!q) return true;
+        return (row[0] + " " + row[1]).toLowerCase().indexOf(q) !== -1;
+      });
+      document.getElementById("group-products").innerHTML = products.map(function (row) {
+        var packs = row[4].map(function (amount) {
+          return '<td class="num">' + money(amount) + "</td>";
+        }).join("");
+        return "<tr><td><div class=\"name\">" + esc(row[0]) + "</div></td><td>" + esc(row[1]) + '</td><td class="num">' + money(row[2]) + '</td><td class="num">' + money(row[3]) + "</td>" + packs + "</tr>";
+      }).join("") || '<tr><td class="empty" colspan="9">No products match this search.</td></tr>';
+    }
+
     function showScreen(name) {
       document.getElementById("screen-customers").classList.toggle("hidden", name !== "customers");
+      document.getElementById("screen-pricing").classList.toggle("hidden", name !== "pricing");
       document.getElementById("screen-items").classList.toggle("hidden", name !== "items");
       document.querySelectorAll("nav button").forEach(function (button) {
         button.classList.toggle("on", button.getAttribute("data-nav") === name);
@@ -1023,6 +1152,13 @@
       itemFilter = button.getAttribute("data-filter");
       renderItems();
     });
+    document.getElementById("group-picks").addEventListener("click", function (event) {
+      var button = event.target.closest("[data-group]");
+      if (!button) return;
+      activeGroupId = button.getAttribute("data-group");
+      renderPricing();
+    });
+    document.getElementById("price-search").addEventListener("input", renderPricing);
     document.getElementById("cust-search").addEventListener("input", renderCustomers);
     document.getElementById("item-search").addEventListener("input", renderItems);
     document.getElementById("pull-btn").onclick = pullNetSuite;
@@ -1046,6 +1182,7 @@
     });
 
     renderCustomers();
+    renderPricing();
     renderItems();
     renderLog(custLog, "cust-log");
     renderLog(itemLog, "item-log");
